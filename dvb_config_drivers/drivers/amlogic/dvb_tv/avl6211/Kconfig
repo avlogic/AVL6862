@@ -1,0 +1,21 @@
+#
+# Avl6211 driver configuration
+#
+menuconfig AM_AVL6211
+	tristate "AVL6211 demod driver"
+	default n
+	depends on AM_DVB
+	help
+		Select to enable AVL6211 demod driver.
+
+if AM_AVL6211
+
+config AVL6211_OUTPUT_SERIAL
+	bool "Serial Output Mode"
+	depends on AM_AVL6211
+	default n
+	help
+	 data default on DATA0
+
+endif
+
