@@ -1,0 +1,240 @@
+SDK2.10.7 4/14/2015
+   What's new:  
+        1.Change SDK version from 2.9.7 to 2.10.7 ; 
+        2.Update function"AVL_Demod_DVBTxSignalDetection()"
+        3.Update function"AVL_Check_LockStatus()"
+
+    Modified files:
+        1.sdk_src/AVL_Demod_CommonInternal.h;  
+        2.sdk_src/AVL_Demod_DVBTx.c;
+        3.sdk_src/sdk_examples\AVL68XX_example\AVL68XX_PortingExample.c
+
+
+
+SDK2.9.7 4/10/2015
+   What's new:  --(compare wite 2.7.5)
+        1.Change SDK version from 2.7.5 to 2.9.7 ; 
+        2.Update function"AVL_Demod_DVBCManualLock()","DVBC_GetSignalQuality_Demod()";
+        3.Update DVBSX ,DVBT,ISDBT,DVBC FW;
+        4.Update function"AVL_Demod_DVBTxSignalDetection()"
+        5.Update function"AVL_Check_LockStatus()"
+
+    Modified files:
+        1.sdk_src/AVL_Demod_CommonInternal.h;  
+        2.sdk_src/AVL_Demod_DVBC.c;
+        3.sdk_src/AVL_Demod_Patch_DVBTxFw.h,AVL_Demod_Patch_DVBSxFw.h,AVL_Demod_Patch_ISDBTFw.h,AVL_Demod_Patch_DVBCFw.h
+        4.sdk_src/AVL_Demod_DVBTx.c;
+        5.sdk_src/sdk_examples\AVL68XX_example\AVL68XX_PortingExample.c
+
+SDK2.8.6  2/25/2015(Support .bin(only support DVBTX) and .patch fw)
+
+SDK 2.7.5 2/6/2015
+     What's new:  
+        1.Change SDK version from 2.5.3 to 2.7.5 ; 
+        2.Update function"AVL_Demod_DVBSx_Diseqc_GetTxStatus()";
+        3.Update DVBSX FW,DVBT FW,;
+        4.Update function"AVL_SX_SetToneOut(),AVL_SX_DiseqcSendCmd()"
+        
+    Modified files:
+        1.sdk_src/AVL_Demod_CommonInternal.h;  
+        2.sdk_src/AVL_Demod_DVBSx.c;
+        3.sdk_src/AVL_Demod_Patch_DVBTxFw.h,AVL_Demod_Patch_DVBSxFw.h
+        4.sdk_src/sdk_examples\AVL68XX_example\AVL68XX_PortingExample.c
+
+SDK2.6.4(Support .bin(only support DVBTX) and .patch fw)
+
+SDK 2.5.3 12/8/2014
+     What's new:  
+        1.Update function "AVL_Demod_SetMode()";
+        2.Change SDK version from 2.4.2 to 2.5.3 ; 
+        3.Update function"IBase_Initialize_Demod()";
+        4.Update function "AVL_Demod_DVBSx_BlindScan_Start()","AVL_Demod_DVBSx_BlindScan_GetStatus()";
+        5.Update DVBC FW,DVBSX FW,DVBT FW,;
+        6.Update function"AVL_SX_SetToneOut(),AVL_SX_DiseqcSendCmd()"
+        
+    Modified files:
+        1.sdk_src/AVL_Demod_CommonAPI.c;
+        2.sdk_src/AVL_Demod_CommonInternal.h;  
+        3.sdk_src/AVL_Demod_CommonInternal.c;
+        4.sdk_src/AVL_Demod_DVBSx.c;
+        5.sdk_src/AVL_Demod_Patch_DVBCFw.h,AVL_Demod_Patch_DVBTxFw.h,AVL_Demod_Patch_DVBSxFw.h
+        6.sdk_src/sdk_examples\AVL68XX_example\AVL68XX_PortingExample.c
+
+SDK 2.4.2 11/17/2014
+     What's new:  
+        1.Update function "AVL_Demod_Sleep()" "AVL_Demod_Wakeup()";
+        2.Change SDK version from 2.3.2 to 2.4.2 ; 
+        3.Update function "IRx_Initialize_Demod()","TestSDRAM_Demod()","AVL_ParseFwPatch_v0()",delete function"IBase_SendRxOP_Demod";
+        4.Update function "AVL_Demod_ISDBTAutoLock()"
+        5.Update function “BlindScanExamples()”
+        
+    Modified files:
+        1.sdk_src/AVL_Demod_CommonAPI.c
+        2.sdk_src/AVL_Demod_CommonInternal.h    
+        3.sdk_src/AVL_Demod_CommonInternal.c
+        4.sdk_src/AVL_Demod_ISDBT.c
+        5.sdk_src/sdk_examples/AVL_68XX_example/AVL_68XX_PortingExample.c.
+
+
+SKD 2.3.2  11/03/2014
+     What's new:  
+        1.Updated DVBTx/ISDBTx/DVBSx/DVBC FW named from AVL_Demod_XXFw.h to AVL_Demod_Patch_XXFw.h
+        2.Change SDK version from 2.2.2 to 2.3.2 ; 
+        
+    Modified files:
+        1. sdk_src/AVL_Demod_Patch_DVBTxFw.h; sdk_src/AVL_Demod_Patch_ISDBTxFw.h; sdk_src/AVL_Demod_Patch_DVBSxFw.h/AVL_Demod_Patch_DVBCFw.h;
+           sdk_src/AVL_Demod_CommonAPI.c
+           sdk_src/AVL_Demod_CommonInternal.c
+           sdk_src/AVL_Demod_CommonInternal.h;  
+        2. sdk_src/AVL_Demod_CommonInternal.h;   
+        
+SKD 2.2.2 10/30/2014
+     What's new:  
+        1.Updated DVBTx/ISDBTx/DVBSx FW to 19244/19822/19772;
+        2.Change SDK version from 2.1.1 to 2.2.2 ;
+        3.Change function"AVL_Demod_SetMode","AVL_Demod_SetGPIO","AVL_Demod_GetGPIOValue","AVL_Demod_Initialize";
+        4.Change function "AVL_Demod_ISDBTAutoLock"
+
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBTxFw.h; sdk_src/AVL_Demod_ISDBTxFw.h; sdk_src/AVL_Demod_DVBSxFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonAPI.c;
+        4. sdk_src/AVL_Demod_ISDBT.c;
+
+SDK 2.1.1 10/15/2014
+    What's new:  
+        1.Updated DVBTx/ISDBTx/DVBSx/DVBC FW to 19411/19336/19497/19497;
+        2.Change SDK version from 1.6.10 to 2.1.1 ;
+        3.Change function"AVL_Demod_SetMode";
+        4.Change function"IBase_Initialize_Demod", "AVL_ParseFwPatch_v0";
+          Delete function"Multiply32By16_Demod";
+        5.Change function"AVL_Demod_DVBCAutoLock";
+        6.Change function"AVL_Demod_DVBTxGetModulationInfo";
+
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBTxFw.h; sdk_src/AVL_Demod_ISDBTxFw.h; sdk_src/AVL_Demod_DVBSxFw.h; sdk_src/AVL_Demod_DVBCFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonAPI.c;
+        4. AVL_Demod_CommonInternal.c;
+        5. sdk_src/AVL_Demod_DVBC.c;
+        6. sdk_src/AVL_Demod_DVBTx.c;
+
+SDK 1.6.10 09/19/2014
+    What's new:  
+        1.Updated DVBTx FW to 19244;Updated ISDBTx FW to 19336;(ISDBT is temporary version)
+        2.Change SDK version from 1.5.8 to 1.6.10 ;
+        3.Change function"AVL_Demod_I2CBypassOn";
+
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBTxFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonAPI.c;
+
+SDK 1.5.8 09/04/2014
+    What's new:  
+        1.Updated DVBTx FW to 19177(ISDBT and DVBSx FW is temporary version);
+        2.Change SDK version from 1.4.6 to 1.5.8;
+        3.Change function"AVL_ParseFwPatch_v0";
+        4.Change function"AVL_Demod_DVBSxManualLock";
+        5.Change function"AVL_ScanChannel_Tx".
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBTxFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonInternal.c;
+        4. sdk_src/AVL_Demod_DVBSx.c;
+        5. sdk_src/sdk_examples/AVL_68XX_example/AVL_68XX_PortingExample.c.
+    
+SDK 1.4.6 08/22/2014
+   What's new:
+        1. Updated DVBSx/DVBTx FW to 19078/19065;(ISDBT and DVBSx FW is temporary version)
+        2. Change SDK version from 1.3.4 to 1.4.6,Change chip version from 0x6862 to 0x68624447, add chip version 0x68624955;
+        3. update function"AVL_Demod_Initialize","AVL_Demod_SetMode","AVL_Demod_Wakeup","AVL_Demod_sleep";
+        4. update function"IBase_LoadRegisterBaseAddr_Demod","IBase_Initialize_Demod",
+           add funtion "AVL_patch_read8","AVL_patch_read16" "AVL_patch_read32","AVL_ParseFwPatch_v0";
+        5. update function"AVL_Demod_DVBCAutoLock","AVL_Demod_DVBCManualLock";
+        6. update function"AVL_Demod_DVBSxAutoLock","AVL_Demod_DVBSxManualLock","DVBSx_GetLockStatus_Demod";
+        7. update function"AVL_Demod_DVBTxChannelScan","AVL_Demod_DVBT2AutoLock","AVL_Demod_DVBTAutoLock";
+        8. update function"AVL_Demod_ISDBTAutoLock";
+        9. add files: AVL_Demod_Patch_DVBCFw.h ,AVL_Demod_Patch_ISDBTFw.h ,AVL_Demod_Patch_DVBTxFw.h ,AVL_Demod_Patch_DVBSxFw.h;
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBSxFw.h;
+           sdk_src/AVL_Demod_DVBTxFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonAPI.c;
+        4. sdk_src/AVL_Demod_CommonInternal.c;
+        5. sdk_src/AVL_Demod_DVBC.c;
+        6. sdk_src/AVL_Demod_DVBSx.c;
+        7. sdk_src/AVL_Demod_DVBTx.c;
+        8. sdk_src/AVL_Demod_ISDBT.c;
+        9. sdk_src/ ;
+
+SDK 1.3.4 08/05/2014
+   What's new:
+        1. Updated DVBSx/DVBTx/DVBC/ISDBT FW to 18982/19003/18979/18988;(ISDBT and DVBSx FW is temporary version)
+        2. Change SDK version from 1.2.2 to 1.3.4,Change chip version from 0x68624447 to 0x6862;
+        3. Change function "AVL_Demod_Sleep";
+        4. Change function "AVL_Demod_DVBSx_SetFunctionalMode";
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBSxFw.h;
+           sdk_src/AVL_Demod_DVBTxFw.h;
+           sdk_src/AVL_Demod_ISDBTFw.h;
+           sdk_src/AVL_Demod_DVBCFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonAPI.c;
+        4. sdk_src/AVL_Demod_DVBSx.c;
+
+SDK 1.2.2   07/21/2014
+    What's new:
+        1. Update DVBSx to 18918(temporary version);
+           Update ISDBT fw to 18663(temporary version);
+           Updated DVBTx fw to 18869;
+           Updated DVBC fw to 18902;
+        2. Change SDK version from 1.1.1 to 1.2.2;
+        3. Update function "AVL_Demod_SetMode","AVL_Demod_SetGPIO"; Add function interface "AVL_Demod_GetGPIOValue";
+        4. Update function "IBase_Initialize_Demod",update array"gstPLLConfigArray0", Add function interface "SetGPIOStatus_Demod","Initilize_GPIOStatus_Demod"
+        5. Update function "DVBC_Initialize_Demod";
+        6. Delete funciton"AVL_Demod_DVBSx_Diseqc_SetLNBOut","AVL_Demod_DVBSx_Diseqc_GetLNBOut";
+           Add function interface"AVL_Demod_DVBSx_GetFreqOffset";
+           Update function"AVL_Demod_DVBSxManualLock","AVL_Demod_DVBSxAutoLock","AVL_Demod_DVBSx_BlindScan_Start","DVBSx_GetLockStatus_Demod"
+        7. Add function"AVL_Demod_DVBTxSignalDetection";
+           Update function"DVBTx_Initialize_Demod",update array"DVBT2_RAW_CN_Table","AVL_DVBT2_RF_TABLE";
+        8. Update function"ISDBT_Initialize_Demod","ISDBT_SetIFFrequency_Demod";
+        
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBSxFw.h;
+           sdk_src/AVL_Demod_ISDBTFw.h;
+           sdk_src/AVL_Demod_DVBTxFw.h;
+           sdk_src/AVL_Demod_DVBCFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonAPI.c;
+        4. sdk_src/AVL_Demod_CommonInternal.c; 
+        5. sdk_src/AVL_Demod_DVBC.c;   
+        6. sdk_src/AVL_Demod_DVBSx.c; 
+        7. sdk_src/AVL_Demod_DVBTx.c; 
+        8. sdk_src/AVL_Demod_ISDBT.c; 
+        
+SDK 1.1.1   06/05/2014
+    What's new:
+        1. DVBSx fw update to 18630;
+        2. Change SDK version from 1.0.0 to 1.1.1;
+        3. update function "EnableTSOutput_Demod(AVL_uint32 uiChipNo)"
+        4. Change function from "DisableTSOutput_6381(AVL_uint32 uiChipNo)" to "DisableTSOutput_Demod(AVL_uint32 uiChipNo)";
+   
+    Modified files:
+        1. sdk_src/AVL_Demod_DVBSxFw.h;
+        2. sdk_src/AVL_Demod_CommonInternal.h;
+        3. sdk_src/AVL_Demod_CommonInternal.cpp;
+
+
+SDK 1.0.0   05/15/2014
+    What's new:
+        1. Initial SDK release.
+
+    Modified files:
+        1. All files are new.
+
+
+
+
+  
+
