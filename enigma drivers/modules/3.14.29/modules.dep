@@ -1,0 +1,20 @@
+RTL8192CU/8192cu.ko:
+kernel/drivers/amlogic/amlnf/aml_nftl_dev.ko:
+kernel/drivers/amlogic/gpu/mali/mali.ko:
+kernel/drivers/amlogic/wifi/rtl8189ES/8189es.ko:
+kernel/drivers/amlogic/wifi/wifi_dummy.ko:
+kernel/drivers/amlogic/wifi/rtl8723BS/8723bs.ko:
+kernel/drivers/amlogic/wifi/bcmdhd/dhd.ko:
+kernel/drivers/bluetooth/bpa10x.ko:
+kernel/drivers/bluetooth/btmrvl.ko:
+kernel/drivers/bluetooth/bcm203x.ko:
+kernel/drivers/bluetooth/bfusb.ko:
+kernel/drivers/bluetooth/btusb.ko:
+kernel/drivers/bluetooth/hci_vhci.ko:
+kernel/drivers/bluetooth/ath3k.ko:
+kernel/drivers/usb/serial/ch341.ko:
+kernel/drivers/usb/serial/cp210x.ko:
+kernel/drivers/usb/serial/iuu_phoenix.ko:
+kernel/drivers/usb/serial/ftdi_sio.ko:
+kernel/drivers/media/dvb-frontends/au8522_decoder.ko: kernel/drivers/media/dvb-frontends/au8522_common.ko
+kernel/drivers/media/dvb-frontends/au8522_common.ko:
